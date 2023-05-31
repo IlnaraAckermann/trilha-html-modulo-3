@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;600&family=Roboto:wght@400;500&family=Secular+One&display=swap');
 body, html {
     margin: 0;
     padding: 0;
@@ -23,7 +24,7 @@ a { color:blue; text-decoration: none;}
     padding-right: 1rem;
 }
 .footer {
-    min-height: 100px;
+    text-align: center;
     border-top: solid 1px #cdcdcd;
 }
 .anchors {
@@ -36,3 +37,22 @@ a { color:blue; text-decoration: none;}
 figure {
     text-align: center;
 }
+
+img { 
+    max-width: 100%;
+}
+
+.logo {
+    font-size: 3rem;
+    padding: 1rem;
+    font-family: 'Secular One', sans-serif;
+}
+code{
+    background-color: #f1f1f1;
+    color: blue;
+}
+
+/* 
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Secular One', sans-serif; */

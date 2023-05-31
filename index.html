@@ -1,44 +1,95 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>AnimeWiki</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
 
-    <div>   
+    <header>
         <div class="logo">
-            <img src="assets/images/logo.png" width="200"/>
+            AnimeWiki
         </div>
-    </div>
+    </header>
 
     <div class="bar"></div>
 
-    <div class="content">
-        <div class="sidebar">
-            <h2>Título</h2>
+    <main class="content">
+        <nav class="sidebar">
+            <h2>Links</h2>
             <ul>
-                <li><a href="#">Links</a></li>
+                <li><a href="./cdz.html">Cavaleiros do Zoodiaco</a></li>
+                <li><a href="./db.html">DragonBall</a></li>
+                <li><a href="./naruto.html">Naruto</a></li>
+                <li><a href="./onepiece.html">One Piece</a></li>
             </ul>
-        </div>
+        </nav>
 
-        <div class="main">
-            
-        </div>
+        <article class="main">
+            <section>
+                <h1 id="titulo">Anime Wiki</h1>
 
-        <div class="anchors">
+
+                <p>Esse site é um projeto de conclusão da trilha HTML da DIO!</p>
+
+                <p>Este site foi criado como parte do nosso aprendizado e desafio de recriar a Wikipedia utilizando um
+                    layout pré-definido. Durante o curso, exploramos diversos conceitos de HTML e agora é o momento de
+                    aplicá-los de forma prática.</p>
+            </section>
+
+            <section>
+                <h2 id="metas">Metas</h2>
+                <p>Uma das principais metas deste projeto é empregar as tags semânticas do HTML para estruturar o
+                    conteúdo de maneira significativa e coerente. Utilizando elementos como <code>header</code>,
+                    <code>nav</code>, <code>main</code>, <code>article</code>, <code>section</code>, <code>aside</code>,
+                    <code>footer</code>, entre outros, buscamos fornecer uma organização clara e intuitiva para os
+                    visitantes do site.
+                </p>
+
+                <p>Além disso, estamos comprometidos com a acessibilidade. Adicionaremos recursos e práticas que
+                    permitirão que pessoas com diferentes habilidades possam navegar e interagir com o conteúdo de forma
+                    eficiente. Através de descrições de imagens, legendas em vídeos e a aplicação de rótulos adequados
+                    em formulários, visamos garantir uma experiência inclusiva para todos os usuários.</p>
+
+                <p>Este projeto é uma oportunidade de aplicar todos os conceitos e técnicas que aprendemos ao longo do
+                    curso. Estamos empolgados em compartilhar o resultado final com você e esperamos que você aproveite
+                    a experiência de navegar em nossa recriação da Wikipedia.</p>
+            </section>
+
+            <section>
+                <h2 id="agradecimentos"> Agradecimentos
+
+                </h2>
+                <p>Obrigado por visitar nosso site e esperamos que você aprecie o trabalho que dedicamos a ele.
+                    Divirta-se explorando o conteúdo e as funcionalidades que desenvolvemos com tanto entusiasmo!</p>
+            </section>
+
+        </article>
+
+        <nav class="anchors">
             <h2>Neste Artigo</h2>
             <ul>
-                <li><a href="#">Âncoras</a></li>
+                <li><a href="#titulo">Titulo</a></li>
+                <li><a href="#titulo">Metas</a></li>
+                <li><a href="#agradecimentos">Agradecimentos</a></li>
             </ul>
-        </div>
-    </div>
+        </nav>
+    </main>
 
-    <div class="footer">
-
-    </div>
+    <footer class="footer">
+        <p>
+            <small>
+                Conheça meu <a href="https://www.linkedin.com/in/ilnaraackermann" target="_blank"
+                    rel="noopener noreferrer">LinkdIn</a>, e veja mais projetos no meu <a
+                    href="https://github.com/IlnaraAckermann" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </small>
+        </p>
+    </footer>
 </body>
+
 </html>
